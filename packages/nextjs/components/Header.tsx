@@ -45,7 +45,7 @@ export const Header = () => {
   const navLinks = (
     <>
       <li>
-        <NavLink href="/myNFTs">
+        <NavLink href="/">
           <PhotoIcon className="h-4 w-4" />
           My NFTs
         </NavLink>
@@ -113,8 +113,8 @@ export const Header = () => {
             <Image alt="SE2 logo" className="cursor-pointer" fill src="/logo.svg" />
           </div>
           <div className="flex flex-col">
-            <span className="font-bold leading-tight">SRE Challenges</span>
-            <span className="text-xs">#0: Simple NFT</span>
+            {/* <span className="font-bold leading-tight">SRE Challenges</span> */}
+            <span className="font-bold text-xs">NFT Dapp</span>
           </div>
         </Link>
         <ul className="hidden xl:flex xl:flex-nowrap menu menu-horizontal px-1 gap-2">{navLinks}</ul>
